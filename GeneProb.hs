@@ -55,5 +55,5 @@ normalize ((a1,a2),b) | a1 > a2 = ((a1,a2), b)
 main :: IO ()
 main = do
         putStrLn "Odds of getting Alzheimer's"
-        putStrLn $ "Adam:   \t " ++ (stringValue adamProbability)
+        putStrLn $ "Children Of Lary:   \t " ++ (stringValue adamProbability)
         putStrLn $ "Average:\t " ++ (stringValue normalProbability)
